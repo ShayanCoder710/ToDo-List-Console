@@ -4,9 +4,9 @@ from colorama import Fore, Back, Style
 
 db = mysql.connector.connect(
     host = 'localhost',
-    user = 'shayan',
-    password = 'shayan_710',
-    database = 'ToDo-List'
+    user = 'UserName',
+    password = '12345',
+    database = 'DataBase_Name'
 )
 cursor = db.cursor()
 
